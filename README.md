@@ -7,3 +7,5 @@ How to Pick Your Next JavaScript Presentation slides
  - Make our changes
  - Submit a pull request
   - Be sure to describe your changes 
+ 
+# The End
