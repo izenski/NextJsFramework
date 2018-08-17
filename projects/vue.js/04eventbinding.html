@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div id="app" :style="{ height: `15em`, backgroundColor: `hsl(${x}, 80%, 50%)` }" @mousemove="xCoordinate">
+        <p>
+            <button @click="increment">+</button> {{ counter }}
+            <button @click="decrement">-</button>
+        </p>
+        <p>Pixels across: {{ x }}</p>
+    </div>
+      <script src="vue.js"></script>
+      <script src="eventbinding.js"></script>            
+</body>
+</html>

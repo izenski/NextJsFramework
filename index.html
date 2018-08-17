@@ -1,0 +1,1250 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Picking Your Next JS FW</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+        
+        <style>
+            .padwide svg{
+                margin: 0 0.25em 0 0.25em;
+            }
+            .reveal section img { background:none; border:none; box-shadow:none; }
+            
+            /* */
+            .slides section img.overlaylogo {
+                background-color:white;
+                height:100px;
+            }
+
+            cite.source{
+                font-size: 18pt;
+                font-style: italic;
+            }
+        
+        </style>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <!-- <section id="lead">
+                    <h1>Pick Your Next JavaScript Framework</h1>
+                </section>
+                <section>
+                    <img src="images/OracleJavaScript.jpg">
+                </section> -->
+                <section id="title">
+                    <h1>Pick Your Next</h1>
+                    <h1><span style="color:orange">Front-End</span> Framework</h1>
+                    <aside class="notes">
+                        <ul>
+                            <li>Big Impactful Decisions for a Group</li>
+                            <li>Particularly Front-End Frameworks</li>
+                            <li>Why it is hard and what we can do about it</li>
+                            <li>How we can make good decisions</li>
+                            <li>How to implement a change</li>
+                        </ul>                        
+                    </aside>                         
+                </section>
+
+                <section>
+                    <img src="images/logos/jQueryLogo.png" alt="jQuery"
+                        style="background-color:antiquewhite;padding:2em;">
+                    <aside class="notes">
+                        <ul>
+                            <li>Rapidly changing environment</li>
+                            <li>Established patterns have changed</li>
+                            <li>jQuery popular, not necessary</li>
+                            <li>Move thru library types</li>
+                        </ul>                        
+                </section>
+
+                <section>
+                    <img src="images/AngularJSAndLTS.jpg" alt="AngularJS">
+                    <aside class="notes">
+                        <ul>
+                            <li>June 30th last release</li>
+                            <li>3 year LTS</li>
+                            <li>Safe option is legacy</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <table>
+                        <tr>
+                            <td><img src="images/logos/AureliaLogo.jpg" style="max-width:5em"></td>
+                            <td><img src="images/logos/PolymerLogo.png" style="max-width:5em"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/logos/EmberLogo.png" style="max-width:5em"></td>
+                            <td><img src="images/logos/AngularJSLogo.png" style="max-width:5em;background-color:antiquewhite;margin-bottom: 2em;"></td>
+                        </tr>
+                    </table>
+                    <aside class="notes">
+                            <ul>
+                                <li>Definitely marketshare winners and losers</li>
+                                <li>What about technically strong</li>
+                                <li>Not household name/growth</li>
+                            </ul>
+                        </aside>                    
+                </section>                
+
+
+                <!-- <section id="better-title">
+                    <img src="images/FrameworkRoulette.gif"/>
+                    <p><cite class="source">http://wheeldecide.com</cite></p>
+               
+                </section>                
+
+                <section id="better-title">
+                    <h3>or...</h3>
+                    <h2>Make your new JS Framework project a success</h2>
+                    <aside class="notes">
+
+                    </aside>
+                </section> -->
+
+                <section>
+                    <img src="images/HumanBrain.jpg" />
+                    <aside class="notes">
+                        <ul>
+                            <li>Top of your head, pick your favorite</li>
+                            <li>Intuition</li>
+                            <li>Easily retrieved experiences</li>
+                            <li>Great for making some computer decision</li>
+                        </ul>
+                    </aside>                    
+                </section>
+
+                <section>
+                        <img src="images/Minecraft.jpg" />
+                        <aside class="notes">
+                            <ul>
+                                <li>Short cycles for feedback</li>
+                                <li>Highly iterative</li>
+                                <li>Low cost for failure</li>
+                                <li>Train intuition</li>
+                            </ul>
+                        </aside>                    
+                    </section>                
+
+                <section>
+                    <img src="images/Lightbulb50percent.png" />
+                    <aside class="notes">
+                        Reality - gut feel not good for strategic thinking
+                    </aside>                         
+                </section>
+                <!-- <section>
+                    <img src="images/ThinkingFastAndSlow.jpg" />
+                    <aside class="notes">
+                        <ul>
+                            <li>System 1 - fast, instinctive, emotional</li>
+                            <li>Action games, driving, notice pattern </li>
+                            <li>System 2 - slower, deliverative, logical</li>
+                            <li>Math, Communicate Concepts, Focus Attention</li>
+                        </ul>
+                    </aside>
+                </section> -->
+
+                <section>
+                    <p>How far is the moon from the earth?</p>
+                    <p class="fragment">238,900 miles</p>
+                    <p class="fragment">What is the area of the Pacific Ocean?</p>
+                    <p class="fragment">~64 million square miles</p>
+                    <aside class="notes">
+                        <ul>
+                            <li>Let's try our gut on a few untrained questions</li>
+                            <li>Humans aren't great an uneducated guesses</li>
+                            <li>So what is the alternative?</li>
+                        </ul>
+                        
+                    </aside>
+                </section>
+
+                <section>
+                    <img src="images/stacksOfBooks.jpg" />
+                    <aside class="notes">
+                        <p>Alterative is analytic, research approach</p>
+                        <ul>
+                            <ul>researching the interwebs</ul>
+                            <ul>Reading articles</ul>
+                            <ul>Can still fall under biases</ul>
+                            <ul>Some of the biggest, catastrophic failure fall into this category</ul>
+                            <ul>For instance, more than 80% of corporate mergers do not benefit shareholders</ul>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <img src="images/CraneFail01.jpg">
+                    <aside class="notes">
+                        <ul>
+                            <li>We are professionals</li>
+                            <li>We are thoughtful</li>
+                        </ul>
+                    </aside>
+                </section>
+                <section>
+                    <img src="images/CraneFail02.jpg">
+                    <aside class="notes">..and yet</aside>
+                </section>
+                <section>
+                    <img src="images/CraneFail03.jpg">
+                    <aside class="notes">
+                        <ul>
+                            <li>often we still fail</li>
+                            <li>How can we address this?</li>
+                        </ul>
+                    </aside>
+                </section>
+          
+                <section>
+                    <section>
+                        <img src="./images/yourbias.is.png" 
+                            alt="list of biases"
+                            style="max-height:500px;" />
+                            <p><cite class="source">https://www.yourbias.is/</cite></p>
+                            <aside class="notes">
+                                <ul>
+                                    <li>First step is understanding our own biases</li>
+                                    <li>Brain as a computer we come with some spagetti coding meant for our hunter-gatherer ancestors</li>
+                                    <li>Understanding biases and being able to communicate is a good first step</li>
+                                    <li>Go through a few</li>
+                                </ul>
+                            </aside>
+                    </section>
+
+                    <section>
+                        <i class="fal fa-usd-square fa-10x"></i>
+                        <h2>sunk cost fallacy</h2>
+                        <aside class="notes">
+                            <p>Overly value previous investments</p>
+                        </aside>                           
+                    </section>  
+                
+                    <section>
+                        <i class="fal fa-balance-scale fa-10x"></i>
+                        <h2>confirmation bias</h2>
+                        <aside class="notes">
+                            <p>Favor information that confirms existing beliefs</p>
+                        </aside>                         
+                    </section>
+                    
+                    <section>
+                        <i class="fal fa-binoculars fa-10x"></i>
+                        <h2>attribution bias</h2>
+                        <aside class="notes">
+                            <ul>
+                                <li>Personal successes are internal</li>
+                                <li>Personal failures are external</li>
+                                <li>Distant failures are character flaws</li>
+                                <li>Distant successes are luck/situational</li>
+                            </ul>
+                        </aside>                         
+                    </section>   
+          
+                    <section>
+                        <i class="fal fa-graduation-cap fa-10x"></i>
+                        <h2>dunning-kruger effect</h2>
+                        <aside class="notes">
+                            <p>Less competent people are more comfortable with their competence</p>
+                        </aside>                         
+                    </section>                                              
+                </section>
+
+                <section>
+                    <div>
+                    <blockquote><i class="fa fa-quote-left fa-1x fa-pull-left fa-border" aria-hidden="true"></i>I think there is a world market for maybe five computers</blockquote>
+                    <p>Thomas Watson, president of IBM, 1943</p>
+                    </div>
+                    <div class="fragment">
+                        <blockquote><i class="fa fa-quote-left fa-1x fa-pull-left fa-border" aria-hidden="true"></i>There is no reason for any individual to have a computer in his home.</blockquote>
+                        <p>Ken Olsen, DEC founder, 1977</p>
+                    </div>
+                </section>
+
+                <!-- <section>
+                    <div class="fragment">
+                    <blockquote>40% of senior-level hires &quot;are 
+                        pushed out, fail or quit within 18 months&quot;</blockquote>
+                    </div>
+                </section>                 -->
+
+                <section>
+                    <i class="fas fa-question-circle fa-10x"></i>
+                </section>                
+
+                <section>
+                    <img src="images/Decisive.jpg" />
+                    <aside class="notes">
+                        <p>Study analyzing research - asked about process</p>
+                    </aside>                    
+                </section>
+                <section>
+                    <i class="fas fa-cog fa-5x" style="margin-right:10px;"></i>
+                    <ul>
+                        <li>Uncertainties</li>
+                        <li>Search out opposing positions</li>
+                        <li>Range of Perspectives</li>
+                        <li>Try to rescope problems</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>See how these could help assess biases</p>
+                        <p>What kind of a difference in benefit?</p>
+                    </aside>
+                </section>
+                <section>
+                    <h1>6x</h1>
+                    <aside class="notes">
+                        <ul>
+                            <li>First rule: establish a process</li>
+                            <li>Address common biases</li>
+                            <li>Added benefit: processes allow participation</li>
+                            <li>Added benefit: process ages better than opinion</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h1>Part 2: Criteria</h1>
+                </section>
+
+                <section>
+                    <h2>Mei System for Technical Decisions</h2>
+                    <ul>
+                        <li>Interface</li>
+                        <li>Familiarity</li>
+                        <li>Popularity</li>
+                        <li>Activity</li>
+                    </ul>
+                    <p><cite class="source">Unpacking Technical Decisions by Sarah Mei</cite></p>
+                    <!-- https://www.safaribooksonline.com/library/view/fluent-conference-2014/9781491900420/oreillyvideos1998840.html -->
+                    <aside class="notes">
+                        <ul>
+                            <li>Good way to make sure you are thinking of a range of critieria</li>
+                            <li>Picture these as a two by two quadrant</li>
+                            <li>One side - internal team impression vs. external opinions</li>
+                            <li>Second side - product vs community</li>
+                        </ul>
+                    </aside>
+                </section>
+                
+                <section>
+                    <h3>Interface</h3>
+                    <ul class="fa-ul" style="list-style: none">
+                        <li><i class="fa fa-li fa-check-square"></i>ReadMe</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Run the Code</li>
+                        <li><i class="fa fa-li fa-check-square"></i>CLI?</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Build a sample</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>Direct experience interacting directly with the product</p>
+                        <p>Things you read or do</p>
+                    </aside>                           
+                </section>
+
+                <section>
+                    <h3>Activity</h3>
+                    <ul class="fa-ul" style="list-style: none">
+                        <li><i class="fa fa-li fa-check-square"></i>Number/recency of Commits</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Number and Age of Issues</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Comments on issues and pull requests</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Date of Last Release</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Date and completeness for Official Docs</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>How does the product team activity appear</p>
+                      </aside>                               
+                </section>                
+
+                <section>
+                    <h3>Popularity</h3>
+                    <ul class="fa-ul" style="list-style: none">
+                        <li><i class="fa fa-li fa-check-square"></i>Tutorials &amp; blog posts</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Relative popularity</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Stack Overflow questions</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Opinions</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Books</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Mentions</li>
+                        <aside class="notes">
+                            How active is the community in supporting the product?
+                        </aside>    
+                    </ul>
+                </section>   
+                
+                <section>
+                    <h3>Familiarity</h3>
+                    <ul class="fa-ul" style="list-style: none">
+                        <li><i class="fa fa-li fa-check-square"></i>How does the framework feel using it?</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Evaluate the code directly</li>
+                        <li><i class="fa fa-li fa-check-square"></i>Evaluate tests</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>How goes your team experience &amp; judgement work with product</p>
+                        <p>Do you identify with the style -ex) functional</p>
+                    </aside>                      
+                </section> 
+
+                <section>
+                    <h1>Browser Support</h1>
+                    <ul>
+                    <li><i class="fab fa-react"></i> React - IE9+</li>
+                    <li><i class="fab fa-vuejs"></i> Vue - IE9+</li>
+                    <li><i class="fab fa-angular"></i> AngularJS IE9+*</li>
+                    <li><i class="fab fa-angular"></i> Angular - IE9+*</li>
+                    <li><i class="fab fa-ember"></i> Ember - IE9+</li>
+                    <li><i class="fas fa-browser"></i> Polymer 3 - Safari 10+, IE11+</li>
+                    <li><i class="fas fa-browser"></i> Backbone - IE6+?</li>
+                    </ul>
+
+                    <aside class="notes">
+                        <ul>
+                        <li>https://docs.angularjs.org/guide/ie</li>
+                        <li>https://angular.io/guide/browser-support</li>
+                        <li>http://backbonejs.org</li>
+                        <li>https://www.emberjs.com/blog/2017/10/03/the-road-to-ember-3-0.html</li>
+                        </ul>
+                    </aside> 
+                    
+                </section>
+
+                <section>
+                    <h2>Required Tools?</h2>
+                    <img src="images/ToolFrameworkIntegration.png" style="height:400px;" />
+                    <p><cite class="source">https://stateofjs.com/2017/connections/</cite></p>
+                </section>
+
+                <section>
+                    <h2>Build Chain?</h2>
+                    <img src="images/MFEF-NPM-WebPackBabel.png" style="height:400px;" />
+                </section>  
+
+                <section>
+                    <h2>Dependencies?</h2>
+                    <img src="images/GithubDependencyGraph.png">
+                    <p><cite class="source">https://github.com/angular/angular/network/dependencies</cite></p>
+                    
+                </section>
+
+                <section>
+                    <h2>Follows ECMAScript standard?</h2>
+                    <i class="fab fa-js-square fa-10x"></i>
+                </section>
+
+                <section>
+                    <h2>Server-side rendering?</h2>
+                    <i class="fas fa-server fa-10x"></i>
+                </section> 
+                
+                <section>
+                    <h2>Mobile story?</h2>
+                    <i class="fas fa-mobile-alt fa-10x"></i>
+                </section>  
+                
+                <section>
+                    <h2>PWA and other new browser features?</h2>
+                    <i class="far fa-browser fa-10x"></i>
+                </section> 
+
+                <section>
+                    <h2>Modular?</h2>
+                    <i class="far fa-plug fa-10x"></i>
+                </section>  
+                
+                <section>
+                    <h2>Meets regulations?</h2>
+                    <i class="fab fa-accessible-icon fa-10x"></i>
+                </section> 
+                <section>
+                    <h2>Meets Performance SLAs?</h2>
+                    <i class="far fa-rocket fa-10x"></i>
+                </section>  
+
+                <section>
+                    <i class="far fa-question-circle fa-10x"></i>
+                </section>
+
+                <!-- <section>
+                    <div>
+                    <h2>Research?</h2>
+                    <img src="images/microscope.png"/>
+                    </div>
+                    <cite style="font-size:10pt;font-style:italics">https://github.com/FortAwesome/Font-Awesome/issues/515</cite>
+                </section> -->
+                                                                
+                
+                <section>
+                    <h2>Part 3: Statistics</h2>
+                    <blockquote>
+                        "There are three kinds of lies: lies, damned lies, and statistics."
+                    </blockquote>
+                </section>
+
+                <section>
+                <a title="By CHRISTOPHER MACSURAK from Chicago, USA (Carolina Herrera AW14) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons" 
+                    href="https://commons.wikimedia.org/wiki/File%3ACarolina_Herrera_AW14_12.jpg">
+                    <img width="512" alt="Carolina Herrera AW14 12" src="images/fashionshow.jpg"/></a>                
+                </section>
+
+                <section>
+                    <img src="images/logos/Google.png"/>
+                </section>
+
+                <section>
+                    <img src="images/GoogleTrendsBrowsers.jpg" />
+                    <p><cite class="source">https://trends.google.com/trends/explore?cat=5&amp;q=jQuery,Angular,React,Vue</cite></p>
+                </section> 
+                
+                <section>
+                    <img src="images/AngularVueReact.jpg" />
+                    <p><cite class="source">https://trends.google.com/trends/explore?cat=5&amp;q=jQuery,Angular,React,Vue</cite></p>
+                </section>                      
+                
+                
+
+                <section id="npm-stats">
+                    <img src="images/logos/npm.png" alt="npm"/>
+                </section>  
+                
+                <section>
+                    <img src="images/MajorFrontEndFrameworksShareOfNPM.png" />
+                    <p><i>https://www.npmjs.com/npm/state-of-javascript-frameworks-2017-part-1</i></p>
+                </section>
+
+                <section>
+                    <img src="images/MFEF-NPM-Bootstrap.png" />
+                    <p><i>https://www.npmjs.com/npm/state-of-javascript-frameworks-2017-part-1</i></p>
+                </section>
+
+                <section>
+                    <img src="images/MFEF-NPM-React.png" />
+                    <p><i>https://www.npmjs.com/npm/state-of-javascript-frameworks-2017-part-1</i></p>
+                </section>
+                
+                <section>
+                    <img src="images/MFEF-NPM-Angular.png" />
+                    <p><i>https://www.npmjs.com/npm/state-of-javascript-frameworks-2017-part-1</i></p>
+                </section>
+
+                <section>
+                    <img src="images/MFEF-NPM-Newbies150.png" />
+                    <p><cite class="source">https://www.npmjs.com/npm/state-of-javascript-frameworks-2017-part-1</cite></p>
+                </section>      
+                
+                <section>
+                    <img src="images/MFEF-NPM-GrowthShare.png" />
+                    <p><cite class="source">https://www.npmjs.com/npm/state-of-javascript-frameworks-2017-part-1</cite></p>
+                </section> 
+
+                <section>
+                    <h2>npm-stat</h2>
+                    <img src="images/npm-stat-header.png"/>
+                    <p><cite class="source">https://npm-stat.com/</cite></p>
+                </section>
+
+                <section>
+                    <h2>npm-stat</h2>
+                    <img src="images/npm-stat-results.jpg"/>
+                    <p><cite class="source">https://npm-stat.com/</cite></p>
+                </section>
+                
+                <section>
+                    <h2>npm-stat - Nov 2016 to Oct 2017</h2>
+                    <img src="images/npm-stat-chart.png"/>
+                    <p><cite class="source">https://javascriptreport.com/javascript-frameworks-by-the-numbers-fall-2017/</cite></p>
+                </section>                  
+                
+                <section>
+                    <img src="images/logos/StateOfJs2018.png" style="height:50%;width:50%"/>
+                    <p><cite class="source">https://stateofjs.com/2017/</cite></p>
+                </section> 
+                <section>
+                    <img src="images/StateOfJsLibrarySurvey.png" />
+                    <p><cite class="source">https://stateofjs.com/2017/front-end/results/</cite></p>
+                </section>                 
+                
+                <section>
+                    <img src="images/logos/Octocat.png"/>
+                </section> 
+                
+                <section>
+                    <a href="images/GitHubStars.png" target="_blank">
+                    <div style="width:100%;max-height:15em;overflow-y:scroll;">
+                    <img src="images/GitHubStars.png" style="min-height:101%;width:100%"/></a>
+                    </div>
+                    <p><cite class="source">https://github.com/collections/front-end-javascript-frameworks</cite></p>
+                    <aside class="notes">
+                        Total Number of GitHub Stars
+                    </aside>
+                </section>  
+
+                <section>
+                    <img src="images/2018GitHubIncreaseInStars.png"/>
+                    <p><cite class="source">https://risingstars.js.org/2017/en/#section-framework</cite></p>
+                    
+                    <aside class="notes">
+                        This is the number of Github stars added in 2017
+                        <p>Vue - 111,091, React 108,923; angular 39574; preact 19,745</p>
+                    </aside>
+                </section>                
+                
+                <section>
+                    <img src="images/GitHubInsights.png"/>
+                </section>
+
+                <section>
+                    <img src="images/GitHubInsightsAngularJS.png"/>
+                    <p><cite class="source">https://github.com/angular/angular.js/graphs/contributors</cite></p>
+                </section>  
+
+                <section>
+                    <img src="images/GitHubInsightsAngular.png"/>
+                    <p><cite class="source">https://github.com/angular/angular/graphs/contributors</cite></p>
+                </section>  
+                
+                <section>
+                    <img src="images/GitHubInsightsReact.png"/>
+                    <p><cite class="source">https://github.com/facebook/react/graphs/contributors</cite></p>
+                </section>                    
+                
+                <section>
+                    <img src="images/GitHubInsightsVue.png"/>
+                    <p><cite class="source">https://github.com/vuejs/vue/graphs/contributors</cite></p>
+                </section> 
+                
+               
+
+                <section>
+                    <img src="images/logos/StackOverflow.png" style="background-color:white"/>
+                </section>
+
+                <section>
+                    <img src="images/StackOverflowQuestionsBigFrameworks.png"/>
+                    <p><cite class="source">https://stackoverflow.blog/2018/01/11/brutal-lifecycle-javascript-frameworks/</cite></p>
+                    <aside class="notes">
+                    </aside>                   
+                </section>
+
+                <section>
+                    <img src="images/StackOverflowQuestionsSmallFrameworks.png"/>
+                    <p><cite class="source">https://stackoverflow.blog/2018/01/11/brutal-lifecycle-javascript-frameworks/</cite></p>
+                    <aside class="notes">
+                    </aside>                   
+                </section>                
+ 
+                <section>
+                    <img src="images/ReactAngularByIndustry.png"/>
+                    <p><cite class="source">https://stackoverflow.blog/2018/01/11/brutal-lifecycle-javascript-frameworks/</cite></p>
+                    <aside class="notes">
+                    </aside>                   
+                </section>  
+                <section>
+                    <img src="images/ReactAngularByCity.png"/>
+                    <p><cite class="source">https://stackoverflow.blog/2018/01/11/brutal-lifecycle-javascript-frameworks/</cite></p>
+                    <aside class="notes">
+                    </aside>                   
+                </section>    
+                
+                <section>
+                    <img src="images/AngularEnterprisePrediction.png"/>
+                    <p><cite class="source">https://medium.freecodecamp.org/i-just-asked-23-000-developers-what-they-think-of-javascript-heres-what-i-learned-9a06b61998fa</cite></p>
+                    <aside class="notes">
+                    </aside>                   
+                </section>  
+                
+                <section>
+                    <img src="images/MonsterJobs.png"/>
+                </section>
+
+                <!-- <section>
+                    <h3>(six months ago)</h3>
+                    <table>
+                        <tr>
+                            <th>Angular</th>
+                            <td><span class="fragment">808</span></td>
+                        </tr>    
+                        <tr>
+                            <th><span class="fragment">AngularJS</span></th>
+                            <td><span class="fragment">1000+</span></td>
+                        </tr>                                          
+                        <tr>
+                            <th><span class="fragment">jQuery</span></th>
+                            <td><span class="fragment">947</span></td>
+                        </tr>
+                        <tr>
+                            <th><span class="fragment">Backbone</span></th>
+                            <td><span class="fragment">305</span></td>
+                        </tr>
+                        <tr>
+                            <th><span class="fragment">React</span></th>
+                            <td><span class="fragment">382</span></td>
+                        </tr>
+                        <tr>
+                            <th><span class="fragment">Vue</span></th>
+                            <td><span class="fragment">24</span></td>
+                        </tr>   
+                        <tr>
+                            <th><span class="fragment">Preact</span></th>
+                            <td><span class="fragment">0</span></td>
+                        </tr>                                                                                                  
+                    </table>
+                </section> -->
+
+            <section>
+                    <h3>six months ago vs. this week</h3>
+                    <table>
+                        <tr>
+                            <th>Angular</th>
+                            <td class="fragment">808</td>
+                            <td class="fragment">1136</td>
+                        </tr>    
+                        <tr>
+                            <th>AngularJS</th>
+                            <td class="fragment">1000+</td>
+                            <td class="fragment">1213</td>
+                        </tr>                                          
+                        <tr>
+                            <th>jQuery</th>
+                            <td class="fragment">947</td>
+                            <td class="fragment">1079</td>
+                        </tr>
+                        <tr>
+                            <th>React</th>
+                            <td class="fragment">382</td>
+                            <td class="fragment">553</td>
+                        </tr>
+                        <tr>
+                            <th>Vue</th>
+                            <td class="fragment">24</td>
+                            <td class="fragment">61</td>
+                        </tr>                                                                                                  
+                    </table>
+                </section>
+
+                <section>
+                    <h1>Part 4: Frameworks</h1>
+                </section>
+
+                <section>
+                    <img src="images/logos/AngularLogo.png"/>
+                </section>
+
+                <section>
+                    <h2>What is Angular</h2>
+                    <ul>
+                        <li>Angular is a development platform</li>
+                        <li>...for building mobile and desktop web applications</li>
+                        <li>...using Typescript/JavaScript and other languages.</li>
+                        <li class="fragment">(But really TypeScript)</li>
+                        <li class="fragment">Built to address issues in AngularJS architecture 
+                            and changes in modern web application development</li>
+                    </ul>
+                </section>   
+                
+                <section>
+                    <h2>Angular</h2>
+                    <ul>
+                        <li>Supported by Google</li>
+                        <li>Component-based (vs MV* for AngularJS)</li>
+                        <li>HTML-like Templates with attributes</li>
+                        <li>Component-scoped CSS</li>
+                        <li>Steers away from 2-way data binding</li>
+                        <li>Focus on using ng CLI (fork from Ember)</li>
+                        <li>More Opinionated?</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Angular</h3>
+                    <ul>
+                        <li>Bundled "Hello World" app - 217KB</li>
+                        <li>Great, ambitious extension &amp; tool support</li>
+                        <li>Your manager has heard of 'Angular'</li>
+                    </ul>
+                </section>
+
+                <section>
+                        <h3>Hero Sample App - template</h3>
+                        <pre><code>&lt;h2&gt;My Heroes&lt;/h2&gt;
+    &lt;ul class="heroes"&gt;
+        &lt;li *ngFor="let hero of heroes"
+        [class.selected]="hero === selectedHero"
+        (click)="onSelect(hero)"&gt;
+        &lt;span class="badge"&gt;{{hero.id}}&lt;/span&gt; {{hero.name}}
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div *ngIf="selectedHero"&gt;
+        &lt;h2&gt;{{ selectedHero.name | uppercase }} Details&lt;/h2&gt;
+        &lt;div&gt;&lt;span&gt;id: &lt;/span&gt;{{selectedHero.id}}&lt;/div&gt;
+        &lt;div&gt;
+        &lt;label&gt;name:
+            &lt;input [(ngModel)]="selectedHero.name" placeholder="name"&gt;
+        &lt;/label&gt;
+        &lt;/div&gt;  
+    &lt;/div&gt;</code></pre>                    
+                </section>
+
+                <section>
+                   <h3>Hero App - Component (TS)</h3> 
+                   <pre><code>  import { Component, OnInit } from '@angular/core';
+    import { Hero } from '../hero';
+    import { HEROES } from '../mock-heroes';
+    
+    @Component({
+        selector: 'app-heroes',
+        templateUrl: './heroes.component.html',
+        styleUrls: ['./heroes.component.css']
+    })
+    export class HeroesComponent implements OnInit {
+        heroes = HEROES;
+        selectedHero: Hero;
+    
+        constructor() { }
+    
+        ngOnInit() { }
+    
+        onSelect(hero: Hero): void {
+            this.selectedHero = hero;
+        }
+    }</code></pre>
+                </section>
+
+                <section>
+                    <img src="images/logos/ReactLogo.png"/>
+                </section>
+
+                <section>
+                    <h2>What is React?</h2>
+                    <ul>
+                        <li>A JavaScript library for building user interfaces</li>
+                        <li>Separate libraries for web, mobile, and VR interfaces</li>
+                        <li>Supported by Facebook</li>
+                        <li>Component-based design</li>
+                        <li>Higher developer learning curve?</li>
+                        <li>Focused on Functional Programming, Immutability, Pure Functions</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>React</h2>
+                    <ul>
+                        <li>Generally will use a build process (Webpack, Babel)</li>
+                        <li>React utilizes a Virtual DOM for performance</li>
+                        <li>JSX Syntax for templating</li>
+                        <li>More ECMAScript, less framework-specific syntax</li>
+                        <li>Tight integration with Redux library</li>
+                        <li>create-react-app</li>
+                        <li>Licensing?</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <pre><code>    import React from 'react';
+    import Square from './Square';
+    export default class Board extends React.Component {
+        handleClick(i) {
+            const squares = this.state.squares.slice();
+            squares[i] = this.state.xIsNext ? 'X' : 'O';
+            this.setState({
+                squares: squares,
+                xIsNext: !this.state.xIsNext,
+            });
+        }
+        render() {
+            const winner = calculateWinner(this.state.squares);
+            let status;
+            if (winner) {
+              status = 'Winner: ' + winner;
+            } else {
+              status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
+            }
+        
+            return (
+              <div>
+                <div className="status">{status}</div>
+                <div className="board-row">
+                    &lt;Square value={this.props.squares[0]}
+                        onClick={() => this.props.onClick(0)}/&gt;
+                    &lt;Square value={this.props.squares[1]}
+                        onClick={() => this.props.onClick(1)}/&gt;
+                    &lt;Square value={this.props.squares[2]}
+                        onClick={() => this.props.onClick(2)}/&gt;
+                </div>
+                {/* ... */}
+              </div>
+            );
+          }
+        } </code></pre>
+                </section>
+
+                <section>
+                    <img src="images/ReactEcosystem.png" />
+                    <p><cite class="source">https://www.npmjs.com/npm/state-of-javascript-frameworks-2017-part-1</cite></p>
+                </section>
+
+                <section>
+                    <img src="images/logos/VueLogo.png"/>
+                </section>   
+                
+                <section>
+                    <h2>What is Vue.js?</h2>
+                    <ul>
+                        <li>Progressive, incrementally adoptable JS framework for user interfaces</li>
+                        <li>Core library focused exclusively on view layer</li>
+                        <li>Single JS file for simplest integration
+                            <ul>
+                                <li>Support for modern tooling, bundling, etc.</li>
+                            </ul>
+                        </li>
+                        <li>HTML-based templates
+                            <ul>
+                                <li>Can use JSX as well</li>
+                            </ul>
+                        </li>
+                        <li>Reactive, composable components with data-binding</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>A (Very) Simple Vue Application</h3>
+                    <pre><code>&lt;html&gt;
+    &lt;head&gt;
+        &lt;script src="https://cdn.jsdelivr.net/npm/vue"&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div id="app"&gt;{{ message }}&lt;/div&gt;
+        &lt;script&gt;
+            var app = new Vue({
+                el: '#app',
+                data: { message: 'Hello Vue!' }
+            });
+        &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                </section>
+
+                <section>
+                    <h3>Comparison To Other Frameworks</h3>
+                    <ul>
+                       <li>Uses a virtual DOM (like React, unlike Angular)
+                           <ul>
+                               <li>Sub component tracking and re-rendering (unlike Angular)</li>
+                           </ul>
+                       </li> 
+                       <li>Very fast (like React, Angular)</li>
+                       <li>Reactive UI components (like React, Angular)
+                        <ul>
+                            <li>One-way data binding (Angular uses two-way)</li>
+                        </ul>
+                       </li>
+                       <li>Composable components (like React, Angular)</li>
+                    </ul>
+                    </section>
+                    <section>
+                        <h3>Comparison (2)</h3>
+                        <ul>
+                       <li>HTML-based templates
+                           <ul>
+                               <li>Can use JSX like React if needed or desired</li>
+                           </ul>
+                       </li>
+                       <li>Component-scoped CSS via &lt;style&gt; tags in single-file components
+                           <ul>
+                               <li>Requires a loader (I.e., webpack, HTTP, etc.)</li>
+                               <li>Can use CSS-in-JS like React if needed or desired</li>
+                           </ul>
+                       </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Comparison (3)</h3>
+                    <ul>
+                     <li>Simplified core, extensions for more complexity (like React)
+                         <ul>
+                         <li>Most important extensions are officially supported and developed</li>
+                         <li>Vue Router for routing and SPA applications (analogous to React Router)</li>
+                         <li>Vuex for state management (analogous to Redux)</li>
+                         <li>Weex for native rendering (not as robust as React Native)</li>
+                         </ul>
+                     </li>  
+                    </ul>
+                </section>
+                <section>
+                    <h3>Comparison (4)</h3>
+                    <ul>
+                        <li>Very easy to integrate
+                            <ul>
+                                <li>&lt;script src="https://cdn.jsdelivr.net/npm/vue"&gt;&lt;/script&gt;</li>
+                            </ul>
+                        </li>
+                        <li>Very small (~30KB gzipped with Vuex and Vue Router)
+                            <ul>
+                                <li>Angular about ~130KB gzipped</li>
+                            </ul>
+                        </li>
+                        <li>Unopinionated (unlike Angular and to some extent React)</li>
+                        <li>https://vuejs.org/v2/guide/comparison.html</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Resources</h3>
+                    <ul>
+                       <li> Vue.js Guide: https://vuejs.org/v2/guide</li>
+                       <li> Vue Router Guide: https://router.vuejs.org/en</li>
+                       <li> HTTP Vue Loader: https://github.com/FranckFreiburger/http-vue-loader</li>
+                       <li> Vuecasts (Screencasts): http://vuecasts.com</li>
+                       <li> Bulma (CSS): http://bulma.io</li>
+                       <li> Bootstrap Vue (CSS/UI): https://bootstrap-vue.js.org</li>
+                       <li> Element (UI Components): http://element.eleme.io</li>
+                       <li> Axios (JS HTTP Client): https://github.com/axios/axios</li>
+                       <li> jsDelivr (CDN): https://www.jsdelivr.com</li>
+                       <li> Unpkg (CDN): https://unpkg.com</li>
+                    </ul>
+                </section>            
+
+                <section id="what-about-vanilla">
+                    <span class="fa-stack fa-lg">
+                        <i class="fab fa-react fa-stack-1x" style="color:00d8ff;"></i>
+                        <i class="fal fa-ban fa-stack-2x" style="color:e11b22;"></i>
+                    </span> 
+                    <span class="fa-stack fa-lg">
+                        <i class="fab fa-vuejs fa-stack-1x" style="color:42b883;"></i>
+                        <i class="fal fa-ban fa-stack-2x" style="color:e11b22;"></i>
+                    </span>
+                    <span class="fa-stack fa-lg">
+                        <i class="fab fa-angular fa-stack-1x" style="color:b52e31;"></i>
+                        <i class="fal fa-ban fa-stack-2x" style="color:e11b22;"></i>
+                    </span>                                                                
+                </section>
+
+                <section>
+					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                        &ldquo;Unless you are in a job that requires you to use a framework, don’t learn frameworks just for the sake of learning. I am talking about learning how to use a framework. This is a knowledge that will expire fast.&rdquo;
+                        <p><cite class="source">http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations</cite></p>
+					</blockquote>                    
+                </section>
+
+                <section>
+                    <img src="images/NoMoreJqueryGitHub.jpg" alt=""/>
+                    <p><cite class="source">https://twitter.com/mislav/status/1022058279000842240</cite></p>
+                </section>
+
+                <section>
+                    <i class="fal fa-car fa-10x"></i>
+                    <h2>nope.</h2>
+                    <aside class="notes">
+                        <ul>
+                            <li>Major software comparable to a car</li>
+                            <li>Would you built a car from scratch</li>
+                            <li>Maintain your custom car</li>
+                            <li>Mechanic?</li>
+                            <li>Look for overlap in features</li>
+                            <li>Anticipate more cost for customization</li>
+                        </ul>
+
+                    </aside>                           
+                </section>  
+
+                <section>
+                    <h2>TBD</h2>
+                </section>
+
+                <section>
+                    <img src="images/logos/PolymerLogo.png"/>
+                </section>
+
+                <section>
+                    <img src="images/logos/AngularJSlogo.png" style="background-color:#f0f8ff"/>
+                </section>     
+
+                <section>
+                    <img src="images/logos/WebAssembly.png" style="max-height: 10em;" alt="WebAssembly">
+                </section>  
+                
+                <section>
+                    <img src="images/PWALogo.png" alt="Progressive Web Apps" />
+                </section>
+
+                <section>
+                    <img src="images/AmazonEcho.jpg" />
+                </section>
+                <section>
+                    <img src="images/Hologram.jpg" />
+                </section>           
+
+                <!-- <section>
+                    <img src="images/logos/AureliaLogo.jpg"/>
+                </section>
+
+                <section>
+                    <img src="images/logos/jQueryLogo.png" style="background-color:#faebd7"/>
+                </section> -->
+
+
+
+                <!-- <section>
+                    <img src="images/logos/PreactLogo.jpg" />
+                </section>
+
+                <section>
+                    <img src="images/logos/EmberLogo.png" />
+                </section>                 -->
+                
+                <section>
+                    <h1>Conclusion</h1>
+                </section>
+                
+                <section>
+                    <img src="images/congratulations.png" />
+                </section> 
+
+                <section>
+                    <i class="fa fa-cog fa-10x"></i>
+                </section>  
+                
+                <section>
+                    <i class="fa fa-wrench fa-10x"></i>
+                </section>
+
+                <section>
+                    <ul style="list-style: none">
+                    <li>What is your job?</li>
+                    <li class="fragment">Manage people's expectations</li>
+                    </ul>
+                </section>                  
+
+                <section>
+                    <img src="images/Milk.jpg"/>
+                </section>                   
+
+                <section>
+                    <img src="images/InnovationLifeCycle.jpg" />
+                    <p><cite class="source">Illuminate, Nancy Duarte &amp; Patti Sanchez</cite></p>
+                </section>
+                    
+                <section>
+                    <i class="fa fa-users fa-10x"></i>
+                </section>
+
+                <section>
+                    <img src="images/Luke.jpg">
+                </section>  
+                
+                <section>
+                    <img src="images/yoda.png" style="height:50%;width:50%">
+                </section>  
+                
+                <section>
+                    <i class="fa fa-home fa-10x"></i>
+                </section>   
+                
+                <section>
+                    <i class="fa fa-gift fa-10x"></i>
+                </section>    
+                
+                <section>
+                    <ul>
+                        <li>Sample app</li>
+                        <li>Training</li>
+                        <li>Experts available</li>
+                        <li>Time to learn</li>
+                        <li>A build process</li>
+                        <li>Integration with tools &amp; systems</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <i class="fa fa-heart fa-10x"></i>
+                </section>                
+
+                <section>
+                    <img src="images/ThanksNASA.jpg" />
+                </section>
+
+                <section>
+                    <h2>@SteveAlbers</h2>
+                </section>
+
+                <section>
+                        <img
+                            class="overlaylogo";
+                            src="images/logos/DojoToolkit.png"/>
+                        <img
+                            class="overlaylogo";
+                            src="images/logos/jQueryLogo.png"/>
+                        <img class="overlaylogo";
+                            src="images/logos/ReactLogo.png"/>
+                        <img class="overlaylogo";
+                            src="images/logos/AngularLogo.png"/>
+                        <img class="overlaylogo";
+                            src="images/logos/BackboneLogo.png"/>
+                        <img class="overlaylogo";
+                            src="images/logos/AngularJSlogo.png"/> 
+                        <img class="overlaylogo";
+                            src="images/logos/AureliaLogo.jpg"/>
+                        <img class="overlaylogo";
+                            src="images/logos/EmberLogo.png"/>
+                        <img class="overlaylogo";
+                            src="images/logos/ElmLogo.png"/>         
+                        <img class="overlaylogo";
+                            src="images/logos/jQueryLogo.png"/>
+                        <img class="overlaylogo";
+                            src="images/logos/KOLogo.png"/>
+                        <img class="overlaylogo";
+                            src="images/logos/MeteorLogo.png"/> 
+                        <img class="overlaylogo";
+                            src="images/logos/PreactLogo.jpg"/>   
+                        <img class="overlaylogo";
+                            src="images/logos/VueLogo.png"/>  
+                        <img class="overlaylogo";
+                            src="images/logos/VanillaLogo.png"/> 
+                                                                                                                                 
+                </section>
+
+             
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+        <script src="js/fontawesome-all.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+                controls: true,
+				progress: true,
+				history: true,
+                center: true,
+                width: '100%',
+                
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js' }
+				]
+            });
+		</script>
+	</body>
+</html>
